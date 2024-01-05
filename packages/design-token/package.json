@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx token-transformer --expandTypography ./tokens/tokens.json ./build/tokens.json global",
+    "build": "npx token-transformer --expandTypography ./tokens/tokens.json ./build/tokens.json global && style-dictionary build ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
